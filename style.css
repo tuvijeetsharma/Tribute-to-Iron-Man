@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://i1.faceprep.in/ProGrad/iron-man-bg.png");
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+}
+
+div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10%;
+    padding: 2%;
+    border-radius: 5%;
+    }
+
+    img{
+        width: 60%;
+        border-radius: 10%;
+    }
+
+    p,h1,h2,h3{
+        padding: 2%;
+    }
+    
+    p{
+        padding: 0px 10%;
+    }
+
+    img:hover{
+        cursor:pointer;
+        box-shadow: 0px 0px 5px 5px crimson;
+        transform: : scale(1.02);
+    }
+
+hr{
+    width: 60%;
+    margin: auto;
+}
